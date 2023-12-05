@@ -136,11 +136,6 @@ header{
     line-height: 80px;
 }
 
-#top h2{
-    font-size: 40px;
-    line-height: 70px;
-}
-
 .yudo-btn{
     width: 200px;
     height: auto;
@@ -638,11 +633,17 @@ footer p{
 
 
 @media screen and (max-width:600px) {
-    h1{
-        font-size: 16px;
+
+    #top h1{
+        padding-top: 150px ;
+        font-size: 30px;
+        line-height: 40px;
     }
-    h2,h3{
-        font-size: 14px;
+
+    h3 , h4{
+        font-size: 16px;
+        padding: 40px 20px 20px 20px;
+
     }
     p{
         font-size: 12px;
@@ -659,7 +660,8 @@ footer p{
   }
   .want-img{
     width: 100px;
-    height: auto;
+    height: 100px;
+    padding-top: 10px;
 }
 
   .contents-grid{
@@ -667,7 +669,7 @@ footer p{
   }
 
   .contents-item{
-    width: 180px;
+    width: 170px;
   }
 
   .contents-img{
