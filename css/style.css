@@ -384,7 +384,7 @@ header{
 }
 
 .label{
-    max-width: 400px;
+    width: 400px;
     text-align: left;
     margin: 0 auto;
     padding-bottom: 10px;
@@ -508,7 +508,7 @@ footer p{
 
 /*res*/
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:960px) {
      /*ham*/
      .c-hamburger-menu__list {
         background-color: #eeeeeee9; 
@@ -603,7 +603,7 @@ footer p{
         padding: 0 auto;
         grid-template-columns:auto auto auto;
         justify-content: space-evenly;
-        max-width: 1000px;
+        max-width: 480px;
         margin: 0 auto;
   }
 
@@ -633,12 +633,20 @@ footer p{
 }
 
 
-
 }
 
 
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
     p{
         font-size: 14px;
         line-height: 18px;
@@ -646,16 +654,32 @@ footer p{
 
     .want-grid{
         grid-template-columns:auto auto;
-        max-width: 500px;
   }
+
+  .want-item{
+    width: 150px;
+    height: 150px;
+  }
+  .want-img{
+    width: 100px;
+    height: auto;
+}
 
   .contents-grid{
     grid-template-columns:auto auto;
-    max-width: 500px;
   }
 
+  .contents-item{
+    width: 180px;
+  }
+
+  .contents-img{
+    width: 140px;
+  }
+
+
   .steps{
-    width: 400px;
+    width: 300px;
   }
 
   .feature-grid{
@@ -663,16 +687,19 @@ footer p{
   }
 
   .feature-item{
-    width: 200px;
-    height: 200px;
-    gap: 10px;
-    margin: 20px;
-    padding: 20px;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
     background-color: #fff;
 }
 
 .feature-img{
     width: 100px;
+}
+
+.feature-item p{
+    line-height: 22px;
+    font-size: 12px;
 }
 
 
@@ -681,6 +708,13 @@ footer p{
     grid-template-columns: auto auto;
 }
 
+.label{
+    width: 350px;
+}
+
+.context{
+    width: 350px;
+}
 
 }  
 
