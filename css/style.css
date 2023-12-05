@@ -1,0 +1,686 @@
+@charset "UTF-8";
+
+/*共通*/
+html{
+    font-size: 100%;
+    text-align: center;
+}
+
+body{
+    font-family: 'BIZ UDGothic', sans-serif;
+    color: #3c3a3c;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.c-hamburger-menu__button , .c-hamburger-menu__input{
+    display: none;
+  }
+
+h3{
+    padding: 100px 50px 20px 50px;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+h4{
+   padding: 20px 100px 50px 100px;
+   line-height: 26px;
+   font-size: 20px;
+   font-weight: normal;
+}
+
+.pur-border{
+    background:linear-gradient(transparent 50%, #d370d0c3 0%);
+}
+
+.bl-border{
+    border-bottom: 1px solid #3c3a3c;
+}
+
+.bl-border:hover{
+    opacity:0.5;
+	transition:0.3s;
+}
+
+/*sagasu*/
+.yudo-p{
+    margin: 30px 0;
+    line-height: 24px;
+}
+
+.sagasu-btn{
+    margin: 30px auto;
+    width: 250px;
+    height: auto;
+}
+
+.sagasu-btn:hover{
+    opacity:0.85;
+	transition:0.3s;
+}
+
+.toroku{
+    padding-bottom: 30px;
+}
+
+
+a{
+    color: #3c3a3c;
+}
+
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    background-color: #f8f6f64c;
+}
+
+.header-logo{
+    height: 30px;
+    width: auto;
+}
+
+.header-logo:hover{
+    opacity:0.5;
+	transition:0.3s;
+}
+
+.header-list{
+    display: flex;
+    list-style: none;
+}
+
+.header-list a{
+    font-size: 12px;
+    color: #3c3a3c;
+}
+
+.header-list li:hover{
+    opacity:0.5;
+	transition:0.3s;
+}
+
+.header-list li{
+    margin: auto 20px;
+}
+
+.header-btn{
+    height: 30px;
+    width: auto;
+}
+
+
+/*top*/
+#top{
+    min-height: 600px;
+    background-image: url(../images/top.jpg);
+    background-size: cover;
+    background-color:rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+}
+
+#top h1{
+    padding-top: 270px ;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+#top h2{
+    font-size: 40px;
+    line-height: 70px;
+}
+
+.yudo-btn{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.slider img {
+    width:150px;/*スライダー内の画像を横幅100%に*/
+    height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider .slick-slide {
+    margin: 30px 10px ;/*スライド左右の余白調整*/
+}
+
+
+/*about*/
+#about{
+    background-color: #ffffff9f;
+}
+
+.about-img{
+    width: 200px;
+    margin: 0 auto;
+}
+
+#about p{
+    line-height: 24px;
+    padding: 20px 50px 50px 50px;
+}
+
+/*want*/
+#want{
+    background-color: #f4f1f1;
+    padding-bottom: 50px;
+}
+
+
+.want-grid{
+    display: grid;
+    padding: 0 auto;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.want-item{
+    width: 200px;
+    height: 200px;
+    gap: 10px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.want-img{
+    width: 155px;
+    height: auto;
+}
+
+
+
+/*contents*/
+
+.contents-grid{
+    display: grid;
+    padding: 0 auto;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contents-item{
+    width: 200px;
+    height: 150px;
+    gap: 10px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f4f1f1;
+}
+
+.contents-img{
+    width: 150px;
+    height: 90px;
+    object-fit: contain;
+    margin: 10px;
+}
+
+.contents-p{
+    margin: 30px 0;
+}
+
+/*connect*/
+#connect{
+    background-color: #f4f1f1;
+}
+
+#connect h5{
+    font-size: 20px;
+}
+
+.steps{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.step-img{
+    width: auto;
+    height: 150px;
+}
+
+.step-p{
+    line-height: 24px;
+    padding: 10px 40px;
+}
+
+.sita{
+    width: 30px;
+    margin:  30px auto 0 auto;
+}
+
+
+
+/*worry*/
+#worries h3{
+    padding: 100px 0 30px 0;
+}
+
+#worries h4{
+    margin-bottom: 30px;
+}
+
+.worry p{
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+
+
+.worry-img{
+    height: 150px;
+    width: auto;
+}
+
+
+/*feature*/
+#feature{
+    background-color: #f4f1f1;
+}
+
+
+.feature-grid{
+    display: grid;
+    padding: 0 auto;
+    grid-template-columns: auto auto auto ;
+    justify-content: space-evenly;
+}
+
+.feature-item{
+    width: 270px;
+    height: 270px;
+    gap: 10px;
+    margin: 20px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+
+.feature-img{
+    width: 150px;
+}
+
+.feature-item p{
+    line-height: 24px;
+}
+
+/*safe*/
+.safe-grid{
+    display: grid;
+    padding: 0 auto;
+    grid-template-columns: auto auto auto auto ;
+    justify-content: space-evenly;
+}
+
+.safe-item{
+    width: 220px;
+    height: 250px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.safe-img{
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.safe-item p{
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+    line-height: 24px;
+}
+
+
+/*voice*/
+#voices{
+    background-color: #f4f1f1;
+}
+
+.voice-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin:  0 auto;
+    padding-bottom: 30px;
+}
+
+.voice-item{
+    background-color: #E5D4FF;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 30px 20px;
+    text-align: left;
+    line-height: 24px;
+}
+
+.guest{
+   padding: 10px 0;
+}
+
+/*contact*/
+.contactform{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.label{
+    max-width: 400px;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.context{
+    background-color: #E5D4FF;
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.consub{
+    background-color: #E5D4FF;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    margin: 20px auto 30px auto;
+    text-align: center;
+}
+
+.consub:hover{
+    opacity:0.85;
+	transition:0.3s;
+}
+
+.contactform p{
+    line-height: 24px;
+}
+
+/*qa*/
+#qa{
+    background-color: #f4f1f1;
+}
+
+/*アコーディオン全体*/
+.accordion-area{
+    list-style: none;
+    width: 96%;
+    max-width: 900px;
+    margin:0 auto;
+}
+
+.accordion-area li{
+    margin: 10px 0;
+}
+
+.accordion-area section {
+	border: 1px solid #ccc;
+}
+
+/*アコーディオンタイトル*/
+.qa-title {
+    position: relative;/*+マークの位置基準とするためrelative指定*/
+    cursor: pointer;
+    font-size:16px;
+    font-weight: normal;
+    padding: 3% 3% 3% 50px;
+    transition: all .5s ease;
+    background-color: #E5D4FF;
+}
+
+/*アイコンの＋と×*/
+.qa-title::before,
+.qa-title::after{
+    position: absolute;
+    content:'';
+    width: 15px;
+    height: 2px;
+    background-color: #3c3a3c;
+    
+}
+.qa-title::before{
+    top:48%;
+    left: 15px;
+    transform: rotate(0deg);
+    
+}
+.qa-title::after{    
+    top:48%;
+    left: 15px;
+    transform: rotate(90deg);
+
+}
+/*　closeというクラスがついたら形状変化　*/
+.qa-title.close::before{
+	transform: rotate(45deg);
+}
+
+.qa-title.close::after{
+	transform: rotate(-45deg);
+}
+
+#qa p{
+    line-height: 24px;
+}
+
+/*アコーディオンで現れるエリア*/
+.box {
+    display: none;/*はじめは非表示*/
+    background: #f3f3f33f;
+	margin:0 3% 3% 3%;
+    padding: 3%;
+}
+
+
+/*footer*/
+footer{
+    color: #fdfafaeb;
+    background-color: #DCBFFF;
+    height: 40px;
+    margin-top: 30px;
+}
+
+footer p{
+    padding:10px;
+}
+
+
+/*res*/
+
+@media screen and (max-width:1000px) {
+     /*ham*/
+     .c-hamburger-menu__list {
+        background-color: #eeeeeee9; 
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        position: absolute;
+        transform: translateX(-100%);
+        transition: 0.3s; 
+        top: 100%;
+        width: 50%;
+        line-height: 48px;
+      }
+
+    
+      #hamburger:checked ~ .c-hamburger-menu__list {
+        transform: translateX(0%);
+        transition: 0.3s;
+      }
+    
+    .c-hamburger-menu__input {
+      display: none;
+    }
+    
+    .c-hamburger-menu__bg {
+      background-color: #000; 
+      cursor: pointer;
+      display: none;
+      height:300px;
+      left: 0;
+      opacity: 0.4;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1;
+    }
+    
+    #hamburger:checked ~ .c-hamburger-menu__bg {
+      display: block;
+    }
+    
+    .c-hamburger-menu__button {
+      display: none;
+      margin: 3px;
+    }
+
+      .c-hamburger-menu__button {
+        align-items: center;
+        appearance: none;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        gap: 5px; 
+        height: 24px;
+        justify-content: center;
+        width: 24px;
+      }
+    
+    .c-hamburger-menu__button-mark {
+      background-color:rgba(20, 16, 29, 0.752); 
+      display: block;
+      height: 1px; 
+      transition: 0.3s; 
+      width: 20px; 
+    }
+    
+      #hamburger:checked
+        ~ .c-hamburger-menu__button
+        .c-hamburger-menu__button-mark:nth-of-type(1) {
+        transform: translate(2px, 1px) rotate(45deg);
+        transform-origin: 0%; 
+      }
+      #hamburger:checked
+        ~ .c-hamburger-menu__button
+        .c-hamburger-menu__button-mark:nth-of-type(2) {
+        opacity: 0;
+      }
+      #hamburger:checked
+        ~ .c-hamburger-menu__button
+        .c-hamburger-menu__button-mark:nth-of-type(3) {
+        transform: translate(2px, 3px) rotate(-45deg); 
+        transform-origin: 0%; 
+      }
+
+
+
+ .want-grid{
+        display: grid;
+        padding: 0 auto;
+        grid-template-columns:auto auto auto;
+        justify-content: space-evenly;
+        max-width: 1000px;
+        margin: 0 auto;
+  }
+
+
+  .contents-grid{
+    display: grid;
+    padding: 0 auto;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .steps{
+    width: 600px;
+  }
+
+  .feature-grid{
+    display: grid;
+    padding: 0 auto;
+    grid-template-columns: auto auto ;
+    justify-content: space-evenly;
+  }
+
+  .safe-grid{
+    grid-template-columns: auto auto;
+}
+
+
+
+}
+
+
+
+@media screen and (max-width:650px) {
+    p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .want-grid{
+        grid-template-columns:auto auto;
+        max-width: 500px;
+  }
+
+  .contents-grid{
+    grid-template-columns:auto auto;
+    max-width: 500px;
+  }
+
+  .steps{
+    width: 400px;
+  }
+
+  .feature-grid{
+    grid-template-columns: auto auto ;
+  }
+
+  .feature-item{
+    width: 200px;
+    height: 200px;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.feature-img{
+    width: 100px;
+}
+
+
+
+.voice-grid{
+    grid-template-columns: auto auto;
+}
+
+
+}  
+

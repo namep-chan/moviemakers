@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+ <head>
+     <meta charset="utf-8">
+     <title>MOVIE MAKER</title>
+     <meta name="MOVIE MAKER" content="動画制作者が見つかるサイト">
+
+     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/slick.css">
+     <link rel="stylesheet" href="css/style.css">
+
+     <link rel="icon" type="images/png" href="images/icon.png">
+
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+ </head>
+
+ <body>
+
+ <div class="background">
+
+    <header id="header-all">
+          <div><a href="index.html"><img src="images/sitelogo.png" alt="サイトロゴ" class="header-logo"></a></div>
+
+          <!-- ハンバーガー -->
+          <input type="checkbox" name="hamburger" id="hamburger" class="c-hamburger-menu__input"/><!-- 追記 idはlabelのforと同じにする -->
+          <label for="hamburger" class="c-hamburger-menu__bg"></label>
+          
+             <ul class="header-list c-hamburger-menu__list">
+                   <li><a href="#want">動画ジャンル</a></li>
+                   <li><a href="#connect">ご紹介のながれ</a></li>
+                   <li><a href="#feature">MOVIE MAKERの特徴</a></li>
+                   <li><a href="#voices">利用者の声</a></li>
+                   <li><a href="#qa">よくあるご質問</a></li>
+                   <li><a href="#contact"><img src="images/sagasu.png" alt="note" class="header-btn"></a></li>
+             </ul>
+
+             <label for="hamburger" class="c-hamburger-menu__button">
+               <span class="c-hamburger-menu__button-mark"></span>
+               <span class="c-hamburger-menu__button-mark"></span>
+               <span class="c-hamburger-menu__button-mark"></span>
+             </label>
+     </header>
+
+     <section id="top">
+      <h1>あなたにぴったりの<br>動画制作者、<br>すぐに出会えます</h1>
+
+      <div  class="sagasu-btn"><a href=""><img src="images/sagasu.png" alt="ボタン"></a></div>
+
+      <ul class="slider">
+            <li><img src="images/gal-1.jpg" alt=""></li>
+            <li><img src="images/gal-2.jpg" alt=""></li> 
+            <li><img src="images/gal-3.jpg" alt=""></li>
+            <li><img src="images/gal-1.jpg" alt=""></li>
+            <li><img src="images/gal-2.jpg" alt=""></li> 
+            <li><img src="images/gal-3.jpg" alt=""></li>
+            <li><img src="images/gal-1.jpg" alt=""></li>
+            <li><img src="images/gal-2.jpg" alt=""></li> 
+            <li><img src="images/gal-3.jpg" alt=""></li>
+            <li><img src="images/gal-1.jpg" alt=""></li>
+            <li><img src="images/gal-2.jpg" alt=""></li> 
+            <li><img src="images/gal-3.jpg" alt=""></li>
+      </ul>
+
+     </section>
+
+     <section id="about">
+      <h3>個人やスタートアップから中小・大手企業まで。<br>
+            個々に合った動画制作者が見つかる<span class="pur-border">「MOVIE MAKERS」</span>
+      </h3>
+      <div class="about-img"><img src="images/about.jpg" alt="about"></div>
+      <p>
+            MOVIE MAKERSは、IT専門のビジネスマッチングサービスです。<br>
+            知識が豊富な専門スタッフが発注者様のご要望をしっかりヒアリング、ご要望にマッチする制作者をご紹介します。<br>
+            全国4000社以上の独自データベースによるマッチング精度の高さで発注者と受注者をつなぎ、プロジェクトの成功をサポートしています。
+      </p>
+     </section>
+
+     <section id="want">
+      <h3>どのようなサービスをご希望ですか？</h3>
+
+      <div class="want-grid">
+            <div class="want-item">
+                  <img src="images//1-1.png" alt="" class="want-img">
+                  <p>企画・構成</p>
+            </div>
+            <div class="want-item">
+                  <img src="images/1-2.png" alt="" class="want-img">
+                  <p>撮影・編集</p>
+            </div>
+            <div class="want-item">
+                  <img src="images/1-3.png" alt="" class="want-img">
+                  <p>ナレーション・<br>テロップ入れ</p>
+            </div>
+            <div class="want-item">
+                  <img src="images/1-4.png" alt="" class="want-img">
+                  <p>キャスティング</p>
+            </div>
+            <div class="want-item">
+                  <img src="images/1-5.png" alt="" class="want-img">
+                  <p>アニメーション・<br>CG制作</p>
+            </div>
+            <div class="want-item">
+                  <img src="images/1-6.png" alt="" class="want-img">
+                  <p>ドローン・空撮</p>
+            </div>
+            <div class="want-item">
+                  <img src="images/1-7.png" alt="" class="want-img">
+                  <p>SNS・広告運用</p>
+            </div>
+            <div class="want-item">
+                  <img src="images/1-8.png" alt="" class="want-img">
+                  <p>WEBサイト制作</p>
+            </div>
+      </div>
+     </section>
+
+     <section id="contents">
+      <h3>多彩な実績を持つ制作会社がお応えします</h3>
+      <h4>さまざまなジャンルの実績はもちろん、<br>
+          ご要望にあわせて企画・キャスティング・撮影・編集など<br>
+          細かいニーズを叶える制作者が多数登録しています。</h4>
+
+      <div class="contents-grid">
+            <div class="contents-item">
+                  <img src="images/c-1.jpg" alt="" class="contents-img">
+                  <p>会社紹介</p>
+            </div>
+            <div class="contents-item">
+                  <img src="images/c-2.jpg" alt="" class="contents-img">
+                  <p>商品・サービス紹介</p>
+            </div>
+            <div class="contents-item">
+                  <img src="images//c-3.jpg" alt="" class="contents-img">
+                  <p>採用インタビュー</p>
+            </div>
+            <div class="contents-item">
+                  <img src="images/c-4.jpg" alt="" class="contents-img">
+                  <p>教育・研修</p>
+            </div>
+            <div class="contents-item">
+                  <img src="images/c-5.jpg" alt="" class="contents-img">
+                  <p>営業・商談</p>
+            </div>
+            <div class="contents-item">
+                  <img src="images/c-6.jpg" alt="" class="contents-img">
+                  <p>業界特化</p>
+            </div>
+            <div class="contents-item">
+                  <img src="images/c-7.jpg" alt="" class="contents-img">
+                  <p>広告</p>
+            </div>
+            <div class="contents-item">
+                  <img src="images/c-8.jpg" alt="" class="contents-img">
+                  <p>ライブ配信</p>
+            </div>
+      </div>
+
+      <P class="contents-p">こちらはほんの一例です。<br>
+            さまざまな得意ジャンルを持つ制作会社にお任せいただけます。</P>
+      <div  class="sagasu-btn"><a href=""><img src="images/sagasu.png" alt="ボタン"></a></div>
+      <div class="toroku"><a href="">制作会社様のご登録は<span class="pur-border">こちら</span>から</a></div>
+     </section>
+
+     <section id="connect">
+      <h3>ご紹介のながれ</h3>
+      <h4>簡単2ステップ。<br>
+            ヒアリング後、1営業日以内にご紹介いたします。<br>
+            比較・検討いただきご発注に至っても仲介費用は不要です。</h4>
+
+      <div class="steps">
+            <div class="step">
+                  <img src="images/s-1.png" alt="" class="step-img">
+                  <h5>ご相談登録</h5>
+                  <p class="step-p">フォームよりご登録ください。<br>
+                        3営業日以内にご連絡をいたします。</p>
+            </div>
+            <div class="sita"><img src="images/sita.png" alt=""></div>
+            <div class="step">
+                  <img src="images/s-2.png" alt="" class="step-img">
+                  <h5>ヒアリング</h5>
+                  <p class="step-p">専門スタッフがご相談の詳細をお伺いいたしますので、
+                        <br>ご要望やご条件をお伝えください。</p>
+            </div>
+            <div class="sita"><img src="images/sita.png" alt=""></div>
+            <div class="step">
+                  <img src="images/s-3.png" alt="" class="step-img">
+                  <h5>マッチング</h5>
+                  <p class="step-p">4000社以上の独自データベースより、最適な制作者とマッチング。<br>
+                        最短１営業日以内に選定した数社をご紹介します。</p>
+            </div>
+            <div class="sita"><img src="images/sita.png" alt=""></div>
+            <div class="step">
+                  <img src="images/s-4.png" alt="" class="step-img">
+                  <h5>商談開始</h5>
+                  <p class="step-p">各社より連絡が入り、直接やり取りをスタート。<br>
+                        ヒアリング内容は事前に各社へ共有済みのため、<br>
+                        改めて要件をお伝えする手間はかかりません。</p>
+            </div>
+      </div>
+
+      <p class="yudo-p">最短1分でお申込み完了。<br>
+            ヒアリング後、1営業日以内にご紹介いたします。</p>
+      <div  class="sagasu-btn"><a href=""><img src="images/sagasu.png" alt="ボタン"></a></div>
+      <div class="toroku"><a href="">制作会社様のご登録は<span class="pur-border">こちら</span>から</a></div>
+
+     </section>
+
+     <section id="worries">
+      <h3>こんなお悩みを解決します！</h3>
+
+
+      <div class="worry">
+            <p>良い制作会社の見つけ方、 見分け方がわからない</p>
+            <p>1社1社検索するのは時間がかかりすぎる</p>
+            <p>知識がなくて不安・・・</p>
+            <p>費用の相場がよくわからない</p>
+            <p>一括見積サービスだと営業電話が多そう</p>
+      </div>
+      <div><img src="images/w-1.png" alt="" class="worry-img"></div>
+      <h4>マッチングにかかる<span  class="pur-border">時間・手間を最大限カット</span>、<br>
+            ベストな制作担当を見つけるお手伝いをします。</h4>
+
+     </section>
+
+     <section id="feature">
+       <h3>MOVIE MAKERSの特徴</h3>
+        <div class="feature-grid">
+            <div class="feature-item">
+                  <img src="images/f-1.png" alt="" class="feature-img">
+                  <p>制作・開発案件に特化した<br>
+                        マッチングシステム</p>
+            </div>
+            <div class="feature-item">
+                  <img src="images/f-2.png" alt="" class="feature-img">
+                  <p>4000社以上の登録者から<br>
+                        理想の発注先が見つかる</p>
+            </div>
+            <div class="feature-item">
+                  <img src="images/f-3.png" alt="" class="feature-img">
+                  <p>特別な知識がなくても安心の<br>
+                        専門スタッフサポート</p>
+            </div>
+            <div class="feature-item">
+                  <img src="images/f-4.png" alt="" class="feature-img">
+                  <p>登録→ヒアリングの<br>
+                        2ステップでご紹介</p>
+            </div>
+            <div class="feature-item">
+                  <img src="images/f-5.png" alt="" class="feature-img">
+                  <p>ご紹介先は<br>
+                        平均4〜5社に厳選</p>
+            </div>
+            <div class="feature-item">
+                  <img src="images/f-6.png" alt="" class="feature-img">
+                  <p>ご紹介まで<br>
+                        最短1営業日</p>
+            </div>
+            <div class="feature-item">
+                  <img src="images/f-7.png" alt="" class="feature-img">
+                  <p>発注者のご利用は無料<br>
+                        （成約手数料も不要）</p>
+            </div>
+        </div>
+     </section>
+
+     <section id="safe">
+      <h3>4つの安心</h3>
+      <div class="safe-grid">
+            <div class="safe-item">
+                  <img src="images/sa-1.png" alt="" class="safe-img">
+                  <p>クローズド案件も安心<br>
+                        案件情報一般非公開</p>
+            </div>
+            <div class="safe-item">
+                  <img src="images/sa-2.png" alt="" class="safe-img">
+                  <p>制作会社は<br>
+                        第三者調査機関にて<br>
+                        信用情報を確認済み</p>
+            </div>
+            <div class="safe-item">
+                  <img src="images/sa-3.png" alt="" class="safe-img">
+                  <p>東証プライム上場サイト<br>
+                        グループ会社による運営</p>
+            </div>
+            <div class="safe-item">
+                  <img src="images/sa-4.png" alt="" class="safe-img">
+                  <p>サービス実績10年以上</p>
+            </div>
+      </div>
+      <p class="yudo-p">最短1分でお申込み完了。<br>
+            ヒアリング後、1営業日以内にご紹介いたします。</p>
+      <div  class="sagasu-btn"><a href=""><img src="images/sagasu.png" alt="ボタン"></a></div>
+      <div class="toroku"><a href="">制作会社様のご登録は<span class="pur-border">こちら</span>から</a></div>
+     </section>
+
+     <section id="voices">
+      <h3>利用者の声</h3>
+      <h4>紹介実績10,000件以上。多くの企業様にご利用ご利用いただいています。</h4>
+
+      <div class="voice-grid">
+            <div class="voice-item">
+                  <p class="coment">最初にヒアリングがあり、候補を選択してくれるのはとても有難い。予備知識がなく、得手不得手も見極めにくい業界で途方に暮れている中、優良な企業につないでいただき非常に助かった。</p>
+                  <p class="guest">（政府・官公庁・団体／東京都）</p>
+            </div>       
+            <div class="voice-item">
+                  <p class="coment">希望を伝えるだけで条件にマッチする企業を選定してもらえる。また、紹介企業とのコンタクト際も、先方からアプローチしてもらえるため、企業選定における時間がかなり削減できました。</p>
+                  <p class="guest">（教育関係／東京都）</p>
+            </div>       
+            <div class="voice-item">
+                  <p class="coment">コンシェルジュが的確・丁寧で印象がとても良かった。紹介企業には類似実績があり、デザイン力にも期待できた。</p>
+                  <p class="guest">（サービス業／大阪府）</p>
+            </div>       
+            <div class="voice-item">
+                  <p class="coment">こちらの要望をきちんと理解して紹介企業をご提案くださったと思います。電話でお話したとおり翌日にご紹介いただきました。紹介後の問い合わせにも、すぐにフォローいただけました。</p>
+                  <p class="guest">（サービス業／宮城県）</p>
+            </div>            
+            <div class="voice-item">
+                  <p class="coment">難易度が高い依頼だったが、比較可能な企業がすぐに見つかり、苦労を予想していただけに驚いている。さらにフォローアップもしっかりしていて申し分ない。</p>
+                  <p class="guest">（製造業／大阪府）</p>
+            </div>       
+            <div class="voice-item">
+                  <p class="coment">地域などの条件も柔軟に選ぶことができ大変便利だった。窓口の方も知識が豊富なため、話を進めやすかった。</p>
+                  <p class="guest">（製造業／兵庫県）</p>
+            </div>       
+            <div class="voice-item">
+                  <p class="coment">気軽さが良いと思った。紹介いただいた企業も真摯なところが多い印象。</p>
+                  <p class="guest">（建設業／東京都）</p>
+            </div>       
+            <div class="voice-item">
+                  <p class="coment">すでに社内で広く共有し、ご利用させていただいています。</p>
+                  <p class="guest">（情報サービス業／大阪府）</p>
+            </div>       
+      </div>
+     </section>
+
+     <section id="contact">
+      <h3>ご相談フォーム</h3>
+
+      <div class="contactform">
+      <div class="label">貴社名</div> <input type="text" class="context">
+      <div class="label">お名前</div> <input type="text"class="context">
+      <div class="label">部署名</div> <input type="text"class="context">
+      <div class="label">メールアドレス</div><input type="text"class="context">
+      <div class="label">電話番号</div><input type="text"class="context">
+      <div class="label">お問い合わせ詳細</div><input type="textarea"class="context">
+      <div class="label">添付資料</div><input type="textarea"class="context">
+      <p>お問い合わせには、
+            <span class="bl-border"><a href="https://p-chan.net/">MOVIE MAKERS利用規約</a></span><br>
+            及び、
+            <span class="bl-border"><a href="https://p-chan.net/">個人情報の取り扱い</a></span>
+            への同意が必要です。</p>
+      <p><input type="submit" value="送信する" class="consub"></p>
+      </div>
+     </section>
+
+
+     <section id="qa">
+      <h3>よくあるご質問</h3>
+
+      <ul class="accordion-area">
+
+            <li>
+               <section>
+                   <h6 class="qa-title">MOVIE MAKERSとは？</h6>
+                   <div class="box">
+                        <p>「MOVIE MAKERS」とはIT専門サイトを運営する〇〇株式会社（東証プライム上場）の完全子会社である△△株式会社が運営する、IT案件に特化した検索・比較サイトです。独自取材による企業情報や構築事例をデータベース化し、気になる企業へお問合わせ・ご紹介ができる発注担当者様向けのベンダー選定サービスをご提供しています。</p>
+                   </div>
+               </section>
+            </li>
+
+            <li>
+               <section>
+                   <h6 class="qa-title">利用料や紹介料、手数料はいくら？</h6>
+                   <div class="box">
+                        <p>各制作会社からの広告費をもとに運営をしているため、ご相談から候補となる制作会社のご紹介まで一切費用は発生せず、完全無料です。成約手数料の徴収はしていないため、制作費への上乗せリスクもほとんどありません。</p>
+                   </div>
+               </section>
+            </li>
+
+            <li>
+               <section>
+                   <h6 class="qa-title">紹介される制作会社の選定基準は？</h6>
+                   <div class="box">
+                        <p>2段階で選定しています。制作会社からヒアリングした技術スキルや制作実績をデータベース化しています。まずはこのデータベースから要件に合致する制作会社を選定します。その後、選定した制作会社のうち、稼働状況やデータベース外の情報を加味して、ご紹介する制作会社を絞り込んでいます。</p>
+                   </div>
+               </section>
+            </li>
+
+            <li>
+               <section>
+                   <h6 class="qa-title">紹介された全社と面談が必要？</h6>
+                   <div class="box">
+                        <p>ご紹介文や各社のWebサイトでは掴めない情報（スキル・実績など）が存在するケースが多々あるため、まずは全社とコンタクトの上、比較することをおすすめしています。もちろん、貴社状況や必要にあわせて面談する制作会社をご選定いただいても問題はございません。</p>
+                   </div>
+               </section>
+            </li>
+
+            <li>
+               <section>
+                   <h6 class="qa-title">どこまでサポートしてくれるの？</h6>
+                   <div class="box">
+                        <p>候補となる制作会社をご紹介するまでサポートさせて頂きます。ご紹介後は、各制作会社と直接コミュニケーションをお取り頂きますので、発注者様自身でご対応をお願い致します。ご紹介した制作会社からの初回連絡がない、といった場合は弊社から催促を致しますので、お気軽にお問い合わせください。</p>
+                   </div>
+               </section>
+            </li>
+
+            <li>
+               <section>
+                   <h6 class="qa-title">紹介された制作会社に必ず発注しなければいけない？</h6>
+                   <div class="box">
+                        <p>ご検討の結果、適切な制作会社ではなかった場合、貴社のご判断でお断りいただき問題はございません。</p>
+                   </div>
+               </section>
+            </li>
+      </ul>
+     </section>
+
+
+     <script src="js/jquery-3.7.1.min.js"></script>
+     <script src="js/slick.min.js"></script>
+     <script src="js/script.js"></script>
+
+ </body>
+
+ <footer>
+         <p><small>&copy;p-chan</small></p>
+    </footer>
+  
+
+</html>
